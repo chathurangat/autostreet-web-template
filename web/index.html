@@ -234,13 +234,86 @@
                         <div class="item-search-tabs">
                             <div class="item-search-menu">
                                 <ul class="nav">
-                                    <li class=""><a href="#tab1" class="active" data-toggle="tab">New Cars</a></li>
-                                    <li><a href="#tab2" data-toggle="tab">Used Cars</a></li>
+                                    <li class=""><a href="#tab1" class="active" data-toggle="tab">Vehicles</a></li>
+                                    <li><a href="#tab2" data-toggle="tab">Spare Parts</a></li>
                                 </ul>
                             </div>
                             <div class="tab-content index-search-select">
                                 <div class="tab-pane active" id="tab1">
 
+                                    <div class="search-background">
+                                        <div class="form row no-gutters search-area-tab">
+                                            <div class="form-group col-xl-3 col-lg-3 col-md-12 mb-0">
+                                                <select class="form-control select2-show-search border-bottom-0 w-100"
+                                                        data-placeholder="Select">
+                                                    <optgroup label="Categories">
+                                                        <option>Choose Make</option>
+                                                        <option value="1">Lamborghini</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-xl-3 col-lg-3 col-md-12 mb-0">
+                                                <select class="form-control select2-show-search border-bottom-0 w-100"
+                                                        data-placeholder="Select">
+                                                    <optgroup label="Categories">
+                                                        <option>Choose Model</option>
+                                                        <option value="1">2</option>
+                                                        <option value="2">4</option>
+                                                        <option value="3">5</option>
+                                                        <option value="4">6</option>
+                                                        <option value="5">7</option>
+                                                        <option value="6">8</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group col-xl-3 col-lg-3 col-md-12 mb-0">
+                                                <select class="form-control select2-show-search border-bottom-0 w-100"
+                                                        data-placeholder="Select">
+                                                    <optgroup label="Categories">
+                                                        <option>District</option>
+                                                        <option value="1">2</option>
+                                                        <option value="2">4</option>
+                                                        <option value="3">5</option>
+                                                        <option value="4">6</option>
+                                                        <option value="5">7</option>
+                                                        <option value="6">8</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group col-xl-3 col-lg-3 col-md-12 mb-0">
+                                                <select class="form-control select2-show-search border-bottom-0 w-100"
+                                                        data-placeholder="Select">
+                                                    <optgroup label="Categories">
+                                                        <option>City</option>
+                                                        <option value="1">2</option>
+                                                        <option value="2">4</option>
+                                                        <option value="3">5</option>
+                                                        <option value="4">6</option>
+                                                        <option value="5">7</option>
+                                                        <option value="6">8</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group col-12 mb-0" style="margin-top: 5px;">
+                                                <div class="row no-gutters bg-white br-2">
+                                                    <div class="form-group col-xl-10 col-lg-10 col-md-10 col-sm-12 mb-0">
+                                                        <input type="text" class="form-control border"
+                                                               placeholder="Location">
+                                                    </div>
+                                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mb-0">
+                                                        <a href="#" class="btn btn-block btn-pink fs-14"><i
+                                                                class="fa fa-search"></i> Search</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="tab2">
 
                                     <div class="search-background">
                                         <div class="form row no-gutters search-area-tab">
@@ -313,22 +386,6 @@
                                                 </select>
                                             </div>
 
-
-                                            <!--<div class="form-group col-12 mb-0" style="margin-top: 5px;">-->
-                                                <!--<select class="form-control select2-show-search border-bottom-0 w-100"-->
-                                                        <!--data-placeholder="Select">-->
-                                                    <!--<optgroup label="Categories">-->
-                                                        <!--<option>City</option>-->
-                                                        <!--<option value="1">2</option>-->
-                                                        <!--<option value="2">4</option>-->
-                                                        <!--<option value="3">5</option>-->
-                                                        <!--<option value="4">6</option>-->
-                                                        <!--<option value="5">7</option>-->
-                                                        <!--<option value="6">8</option>-->
-                                                    <!--</optgroup>-->
-                                                <!--</select>-->
-                                            <!--</div>-->
-
                                             <div class="form-group col-12 mb-0" style="margin-top: 5px;">
                                                 <div class="row no-gutters bg-white br-2">
                                                     <div class="form-group col-xl-10 col-lg-10 col-md-10 col-sm-12 mb-0">
@@ -341,105 +398,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-
-
-                                            <!--<div class="form-group col-xl-2 col-lg-2 col-md-12 mb-0">-->
-                                            <!--<select class="form-control select2-show-search border-bottom-0 w-100" data-placeholder="Select">-->
-                                            <!--<optgroup label="Categories">-->
-                                            <!--<option>Max Price</option>-->
-                                            <!--<option value="1">$10k ></option>-->
-                                            <!--<option value="2">$10k-$20K</option>-->
-                                            <!--<option value="3">$20K-$30K</option>-->
-                                            <!--<option value="4">$30K-$40K</option>-->
-                                            <!--<option value="5">$40K-$50K</option>-->
-                                            <!--<option value="6">$50K-$60K</option>-->
-                                            <!--<option value="7">$60K-$70K</option>-->
-                                            <!--<option value="8">$70k-$80K</option>-->
-                                            <!--<option value="9">$80K < Above</option>-->
-                                            <!--</optgroup>-->
-                                            <!--</select>-->
-                                            <!--</div>-->
-                                            <!--<div class="form-group col-xl-6 col-lg-6  col-md-12 mb-0 location">-->
-                                            <!--<div class="row no-gutters bg-white br-2">-->
-                                            <!--<div class="form-group  col-xl-8 col-lg-7 col-md-12 mb-0">-->
-                                            <!--<input type="text" class="form-control border" id="sale-location" placeholder="Location">-->
-                                            <!--</div>-->
-                                            <!--<div class="col-xl-4 col-lg-5 col-md-12 mb-0">-->
-                                            <!--<a href="#" class="btn btn-block btn-pink fs-14"><i class="fa fa-search"></i> Search</a>-->
-                                            <!--</div>-->
-                                            <!--</div>-->
-                                            <!--</div>-->
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="tab-pane" id="tab2">
-                                    <div class="search-background">
-                                        <div class="form row no-gutters">
-                                            <div class="form-group col-xl-2 col-lg-2 col-md-12 mb-0">
-                                                <select class="form-control select2-show-search border-bottom-0 w-100"
-                                                        data-placeholder="Select">
-                                                    <optgroup label="Categories">
-                                                        <option>Choose Make</option>
-                                                        <option value="1">Lamborghini</option>
-                                                        <option value="2">Ferrari</option>
-                                                        <option value="3">BMW</option>
-                                                        <option value="4">Chevrolet</option>
-                                                        <option value="5">Mercedes-Benz</option>
-                                                        <option value="6">Subaru</option>
-                                                        <option value="7">Volvo</option>
-                                                        <option value="8">Porsche</option>
-                                                        <option value="9">Audi</option>
-                                                        <option value="10">Alfa Romeo</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                            <div class="form-group col-xl-2 col-lg-2 col-md-12 mb-0">
-                                                <select class="form-control select2-show-search border-bottom-0 w-100"
-                                                        data-placeholder="Select">
-                                                    <optgroup label="Categories">
-                                                        <option>Seating</option>
-                                                        <option value="1">2</option>
-                                                        <option value="2">4</option>
-                                                        <option value="3">5</option>
-                                                        <option value="4">6</option>
-                                                        <option value="5">7</option>
-                                                        <option value="6">8</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                            <div class="form-group col-xl-2 col-lg-2 col-md-12 mb-0">
-                                                <select class="form-control select2-show-search border-bottom-0 w-100"
-                                                        data-placeholder="Select">
-                                                    <optgroup label="Categories">
-                                                        <option>Max Price</option>
-                                                        <option value="1">$10k ></option>
-                                                        <option value="2">$10k-$20K</option>
-                                                        <option value="3">$20K-$30K</option>
-                                                        <option value="4">$30K-$40K</option>
-                                                        <option value="5">$40K-$50K</option>
-                                                        <option value="6">$50K-$60K</option>
-                                                        <option value="7">$60K-$70K</option>
-                                                        <option value="8">$70k-$80K</option>
-                                                        <option value="9">$80K < Above</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                            <div class="form-group col-xl-6 col-lg-6  col-md-12 mb-0 location">
-                                                <div class="row no-gutters bg-white br-2">
-                                                    <div class="form-group  col-xl-8 col-lg-7 col-md-12 mb-0">
-                                                        <input type="text" class="form-control border"
-                                                               id="sale-location" placeholder="Location">
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-5 col-md-12 mb-0">
-                                                        <a href="#" class="btn btn-block btn-pink fs-14"><i
-                                                                class="fa fa-search"></i> Search</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
